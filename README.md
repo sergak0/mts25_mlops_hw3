@@ -60,7 +60,7 @@ docker exec -i clickhouse clickhouse-client \
   --multiquery < sql/01_create_tables.sql
 ```
 
-## 5. Load CSV → Kafka
+## 5. Load csv -> Kafka
 
 ```
 docker compose run --rm producer
